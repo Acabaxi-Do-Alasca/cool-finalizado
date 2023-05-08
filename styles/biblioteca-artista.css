@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+body{
+    background-color: #232323;
+}
+
+#parte-de-cima a{
+    color: #CECECE;
+    margin: 1.3vw;
+    font-size: 1.17vw;
+}
+
+#branco:hover {
+    background-color: #FFFFFF;
+    padding: 0.84vw 1.62vw;
+    border-radius: 1.95vw;
+    color: black;
+}
+
+#parte-de-cima{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #191919;
+    position: fixed;
+    width: calc(100% - 17.70vw);
+    top: 0;
+    left: 17.70vw;
+}
+
+main {
+    background-color: #232323;
+}
+
+#menu {
+    position: fixed;
+    background-color: #020202;
+    top: 0px; left: 0px;
+    height: 100vh;
+    width: 17.70vw;
+    z-index: 10;
+    margin: 0; padding: 0;
+}
+
+label img{
+    height: 6.4vw;
+    width: 6.4vw;
+}
+
+label{
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    z-index: 8;
+    transition: all .5s;
+    visibility: hidden;
+}
+
+input{
+    display: none;
+}
+
+#menu #logo{
+    text-align: center;
+}
+
+#dowload img {
+    width: 1.88vw;
+    height: 1.62vw;
+}
+
+.cmc img {
+    width: 2.34vw;
+    height: 2.34vw;
+}
+
+#logo img {
+    width: 11.19vw;
+    height: 8.46vw; 
+}
+
+#ibb {
+    padding: 1.041vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#ibb p {
+    display: flex;
+} 
+
+#biblioteca img, #busca img, #inicio img {
+    width: 1.75vw;
+    height: 1.56vw;
+}
+
+#mundo img {
+    width: 3.15vw;
+    height: 1.95vw;
+}
+
+#cm {
+    padding: 1.041vw;
+}
+
+#pe {
+    padding: 1.041vw;
+}
+
+#menu a, #menu p{
+    color: #FFFFFF;
+}
+
+#menu p, #menu a {
+    font-size:  0.97vw;
+}
+
+#nada {
+    background-color: #393939;
+    height: 0.06vw;
+    width: 15.62vw;
+}
+
+#inicio, #busca, #biblioteca, .cmc, #dowload, #portugues {
+    display: flex;
+    align-items: center;
+}
+
+#musics p{
+    padding-top: 0.39vw;
+}
+
+#dowload, #portugues {
+    margin-top: 2.14vw;
+}
+
+#portugues p{
+    padding-left: 0.65vw;
+}
+
+#portugues {
+    border: #FFFFFF solid 0.32vw;
+    border-radius: 5.20vw;
+}
+
+#portugues img{
+    padding-left: 1.2vw;
+}
+
+.palavra {
+    padding: 1.82vw 1.82vw 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.56vw ;
+    color: white;
+}
+
+main {
+    height: calc(100% - 5.14vw);
+    width: calc(100% - 17.70vw);
+    margin-left: 17.70vw;
+    margin-top: 3.71vw;
+}
+
+
+#login-registro {
+    display: flex;
+}
+
+#branco1 {
+    margin-top: 1.30vw;
+}
+
+#ppaa {
+    color: #FFFFFF;
+    display: flex;
+    margin-left: 0.65vw;
+}
+
+#playlist, #Podcast, #Artista, #Album {
+    padding-left: 0.65vw;
+}
+
+#ppaa p {
+    padding: 0.65vw;
+}
+
+#coisas{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 6.51vw;
+}
+
+#Artistas {
+    background-color: #333333;
+    border-radius: 0.65vw;
+}
+
+#msc1 {
+    padding-top: 1.30vw;
+    padding-left: 0.65vw;
+}
+
+#sete {
+    padding-top: 2.92vw;
+    padding-left: 3.25vw;
+}
+
+.nmp{
+    color: white;
+
+}
+
+.desc {
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 0.58vw;
+    width: 7.81vw;
+    margin-left: 0.97vw;
+    padding-top: 0.65vw;
+}
+
+.bloco:hover {
+    box-shadow:0px 0px 1.10vw 0.78vw rgba(255, 245, 0, 0.25);
+    background-color: #191919;
+    cursor: pointer;
+}
+
+.bloco {
+    width: 9.11vw;
+    height: 12.69vw;
+    margin-left: 2.60vw;
+    margin-bottom: 1.30vw;
+}
+
+.nmp {
+    padding-left: 0.65vw;
+    padding-top: 0.65vw;
+    font-size: 1.17vw;
+}
+
+.bloco img {
+    padding-left: 1.30vw;
+    height:6.51vw;
+}
+
+@media (max-width: 990px){
+    label{
+        visibility: visible;
+        z-index: 11;
+    }
+
+    #menu{
+        left: -24.62vw;
+        width: 24.62vw;
+        background-color: #232323f4;
+    }
+
+    #check:checked ~ #menu{
+        transform: translateX(24.62vw);
+    }
+    
+    #check:checked ~ label{
+        transform: translateX(23.62vw);
+    }
+
+    .baners img{
+        Width: 16.6vw;
+        Height: 20.9vw;
+    }
+
+    #parte-de-cima a{
+        font-size: 2vw;
+    }
+
+    .mostrar{
+        font-size: 1.6vw;
+    }
+
+    .palavra{
+        font-size: 2.31vw ;
+    }
+
+    #titulo{
+        font-size: 7.77vw;
+    }
+
+    #musics a {
+        font-size: 1.40vw;
+    }
+
+    #ibb p {
+        font-size: 1.56vw;
+    }
+
+    #ibb img{
+        width: 2.39vw;
+        height: 2.31vw;
+    }
+
+    #cm p{
+        font-size: 1.56vw;
+    }
+
+    #cm img{
+        width: 3vw;
+        height: 3.45vw;
+    }
+
+    #cm #segundaimg{
+        width: 3vw;
+        height: 3.20vw;
+    }
+
+    #dowload img{
+        width: 3.19vw;
+        height: 2.89vw;
+    }
+    
+    #dowload p{
+        font-size: 1.56vw;
+    }
+
+    #menu #logo img{
+        width: 11.04vw;
+        height: 7.85vw;
+    }
+
+    #portugues p{
+        font-size: 1.56vw;
+    }
+    
+    #portugues {
+        padding: 1vw 1.5vw 1vw 1.5vw;
+    }
+
+    #portugues img{
+        width: 3.27vw;
+        height: 3.27vw;
+    }
+
+    main{
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 7vw;
+    }
+
+    #coisas {
+        margin-top: 9.51vw;
+    }
+
+    #parte-de-cima{
+        width: 100%;
+        left: 0;
+    }
+
+    #ppaa{
+        margin-left: 8vw;
+    }
+
+    .bloco {
+        width: 10.11vw;
+        height: 13.69vw;
+    }
+
+    .bloco img{
+        height: 7.51vw;
+    }
+
+    .nmp{
+        font-size: 1.67vw;
+    }
+
+    .desc{
+        font-size: 1.08vw;
+    }
+}

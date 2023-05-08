@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+body{
+    background-color: #232323;
+}
+
+#parte-de-cima a{
+    color: #CECECE;
+    margin: 1.3vw;
+    font-size: 1.10vw;
+}
+
+#parte-de-cima div a:hover {
+    background-color: #FFFFFF;
+    padding: 0.84vw 1.62vw;
+    border-radius: 1.95vw;
+    color: black;
+}
+
+#parte-de-cima{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #191919;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+}
+
+main {
+    background-color: #232323;
+}
+
+#menu {
+    position: fixed;
+    background-color: #020202;
+    top: 0px; left: 0px;
+    height: 100vh;
+    width: 17.70vw;
+    z-index: 10;
+    margin: 0; padding: 0;
+}
+
+label img{
+    height: 6.4vw;
+    width: 6.4vw;
+}
+
+label{
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    z-index: 8;
+    transition: all .5s;
+    visibility: hidden;
+}
+
+input{
+    display: none;
+}
+
+#menu #logo{
+    text-align: center;
+}
+
+#dowload img {
+    width: 1.88vw;
+    height: 1.62vw;
+}
+
+.cmc img {
+    width: 2.34vw;
+    height: 2.34vw;
+}
+
+#logo img {
+    width: 11.19vw;
+    height: 8.46vw; 
+}
+
+#ibb {
+    padding: 1.041vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#ibb p {
+    display: flex;
+} 
+
+#biblioteca img, #busca img, #inicio img {
+    width: 1.75vw;
+    height: 1.56vw;
+}
+
+#mundo img {
+    width: 3.15vw;
+    height: 1.95vw;
+}
+
+#cm {
+    padding: 1.041vw;
+}
+
+#pe {
+    padding: 1.041vw;
+}
+
+#menu a, #menu p{
+    color: #FFFFFF;
+}
+
+#menu p, #menu a {
+    font-size:  0.97vw;
+}
+
+#nada {
+    background-color: #393939;
+    height: 0.06vw;
+    width: 15.62vw;
+}
+
+#inicio, #busca, #biblioteca, .cmc, #dowload, #portugues {
+    display: flex;
+    align-items: center;
+}
+
+#musics p{
+    padding-top: 0.39vw;
+}
+
+#dowload, #portugues {
+    margin-top: 2.14vw;
+}
+
+#portugues p{
+    padding-left: 0.65vw;
+}
+
+#portugues {
+    border: #FFFFFF solid 0.32vw;
+    border-radius: 5.20vw;
+}
+
+#portugues img{
+    padding-left: 1.2vw;
+}
+
+.palavra {
+    padding: 1.82vw 1.82vw 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.56vw ;
+    color: white;
+}
+
+main {
+    height: calc(100% - 5.14vw);
+    width: calc(100% - 17.70vw);
+    margin-left: 17.70vw;
+    margin-top: 3.71vw;
+}
+
+#cantores1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dia a{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.dia:hover {
+    box-shadow: 0.32vw -0.06vw 0.78vw 0.13vw rgba(255, 255, 255, 0.24);
+}
+
+.dia {
+    margin: 1.30vw 0.13vw 1.95vw 2.14vw;
+}
+
+.p{
+    padding-left: 3.25vw;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.56vw;    
+}
+
+#foco2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mostrar {
+    margin-top: 2.60vw;
+    color: #C7C7C7;
+    margin-right: 1.30vw;
+}
+
+#foco, #play {
+    display: flex;
+}
+
+#foco figure, #play figure{
+    padding: 0.65vw;
+}
+
+#playlist1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lancamentos {
+    display: flex;
+    margin: 1.30vw 0 1.30vw 1.30vw;
+}
+
+#lancamentos figure{
+    padding: 1.30vw 1.30vw 0 1.30vw;
+    width: 8.78vw;
+    height: 5.79vw;
+}
+
+#lancamentos img{
+    width: 8.78vw;
+    height: 5.79vw;
+}
+
+.msct {
+    padding-left: 0.97vw;
+    color: white;
+    font-size: 1.30vw;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mscl:hover {
+    box-shadow: 0.32vw -0.06vw 0.78vw 0.13vw rgba(255, 255, 255, 0.24);
+}
+
+.nomecmsc {
+    padding-left: 1.95vw;
+    font-size: 0.65vw;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mscl {
+    height: 13.02vw;
+}
+
+#cantores1 img, #cantores1 figure {
+    width: 5.92vw;
+    height: 5.79vw;
+}
+
+#foco figure, #foco img, #play figure, #play img {
+    width: 10.0vw;
+    height: 13.8vw;
+}
+
+.mostrar{
+    font-size: 2vw;
+}
+
+@media (max-width: 990px){
+    label{
+        visibility: visible;
+        z-index: 11;
+    }
+
+    #menu{
+        left: -24.62vw;
+        width: 24.62vw;
+        background-color: #232323f4;
+    }
+
+    #check:checked ~ #menu{
+        transform: translateX(24.62vw);
+    }
+    
+    #check:checked ~ label{
+        transform: translateX(23.62vw);
+    }
+
+    main{
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 7vw;
+    }
+
+    .palavra, .p{
+        font-size: 2vw;
+    }
+
+    .mostrar{
+        font-size: 2.5vw;
+    }
+
+    #cantores1 img, #cantores1 figure{
+        width: 6.92vw;
+        height: 6.79vw;
+    }
+
+    #foco figure, #foco img, #play figure, #play img {
+        width: 12.7vw;
+        height: 15.9vw;
+    }
+
+    #lancamentos figure {
+        padding: 1.3vw 1.3vw 0 1.3vw;
+        width: 11vw;
+        height: 8vw;
+    }
+
+    #lancamentos img {
+        width: 11vw;
+        height: 8vw;
+    }
+
+    .msct{
+        font-size: 1.3vw;
+    }
+
+    .nomecmsc{
+        font-size: 1.15vw;
+    }
+}

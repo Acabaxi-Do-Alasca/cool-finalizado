@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+body{
+    background-color: #232323;
+}
+
+#parte-de-cima a{
+    color: #CECECE;
+    margin: 1.3vw;
+    font-size: 1.10vw;
+}
+
+#parte-de-cima div a:hover {
+    background-color: #FFFFFF;
+    padding: 0.84vw 1.62vw;
+    border-radius: 1.95vw;
+    color: black;
+}
+
+#parte-de-cima{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #191919;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+}
+
+main {
+    background-color: #232323;
+}
+
+#menu {
+    position: fixed;
+    background-color: #020202;
+    top: 0px; left: 0px;
+    height: 100vh;
+    width: 17.70vw;
+    z-index: 10;
+    margin: 0; padding: 0;
+}
+
+label img{
+    height: 6.4vw;
+    width: 6.4vw;
+}
+
+label{
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    z-index: 8;
+    transition: all .5s;
+    visibility: hidden;
+}
+
+input{
+    display: none;
+}
+
+#menu #logo{
+    text-align: center;
+}
+
+#dowload img {
+    width: 1.88vw;
+    height: 1.62vw;
+}
+
+.cmc img {
+    width: 2.34vw;
+    height: 2.34vw;
+}
+
+#logo img {
+    width: 11.19vw;
+    height: 8.46vw; 
+}
+
+#ibb {
+    padding: 1.041vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#ibb p {
+    display: flex;
+} 
+
+#biblioteca img, #busca img, #inicio img {
+    width: 1.75vw;
+    height: 1.56vw;
+}
+
+#mundo img {
+    width: 3.15vw;
+    height: 1.95vw;
+}
+
+#cm {
+    padding: 1.041vw;
+}
+
+#pe {
+    padding: 1.041vw;
+}
+
+#menu a, #menu p{
+    color: #FFFFFF;
+}
+
+#menu p, #menu a {
+    font-size:  0.97vw;
+}
+
+#nada {
+    background-color: #393939;
+    height: 0.06vw;
+    width: 15.62vw;
+}
+
+#inicio, #busca, #biblioteca, .cmc, #dowload, #portugues {
+    display: flex;
+    align-items: center;
+}
+
+#musics p{
+    padding-top: 0.39vw;
+}
+
+#dowload, #portugues {
+    margin-top: 2.14vw;
+}
+
+#portugues p{
+    padding-left: 0.65vw;
+}
+
+#portugues {
+    border: #FFFFFF solid 0.32vw;
+    border-radius: 5.20vw;
+}
+
+#portugues img{
+    padding-left: 1.2vw;
+}
+
+.palavra {
+    padding: 1.82vw 1.82vw 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.56vw ;
+    color: white;
+}
+
+main {
+    height: calc(100% - 5.14vw);
+    width: calc(100% - 17.70vw);
+    margin-left: 17.70vw;
+    margin-top: 3.71vw;
+}
+
+
+#cabecario-cantor p {
+    font-family: 'Handjet' !important;
+    color: white;
+    font-size: 4.16vw;
+    padding-top: 5.20vw;
+    padding-left: 3.25vw;
+}
+
+#cabecario-cantor p strong {
+    font-family: 'Handjet' !important;
+}
+
+#cabecario-cantor {
+    background-image: url(../img/fundo\ zedlav.png);
+    display: flex;
+}
+
+#cabecario-cantor img {
+    width: 11.71vw;
+    height: 11.3vw;
+}
+
+#img {
+    padding-top: 2.27vw;
+    padding-bottom: 2.27vw;
+    padding-left: 0.65vw;
+}
+
+#play {
+    display: flex;
+    margin-top: 2.60vw;
+    margin-left: 1.30vw;
+}
+
+#img2:hover {
+    cursor: pointer;
+}
+
+#img2 img {
+    width: 3.05vw;
+    height: 3.125vw;
+}
+
+#seguir {
+    color: white;
+    font-size: 2.08vw;
+    margin-left: 1.30vw;
+    margin-top: 0.32vw;
+}
+
+#seguir p {
+    padding-left: 0.97vw;
+    padding-top: 0.32vw;
+    font-family: 'Handjet' !important;
+}
+
+#seguir:hover {
+    background-color: #DBBD20;
+    border-radius: 2.60vw;
+    cursor: pointer;
+    width: 6.51vw;
+}
+
+#ponto {
+    padding: 1.43vw 0 0 1.30vw;
+     width: 3.70vw;
+    height: auto; 
+}
+
+#ponto:hover {
+    cursor: pointer;
+}
+
+#pp {
+    font-family: 'Handjet' !important;
+}
+
+#populares {
+    color: white;
+}
+
+.msc {
+    display: flex;
+    padding-top: 1.30vw;
+}
+
+.msc img {
+    width: 3.97vw;
+    height: 4.04vw;
+}
+
+.nome, .tempo, .numero {
+    font-family: 'Handjet' !important;
+}
+
+.numero {
+    padding: 0.32vw 0.65vw 0 0.65vw;
+    font-size: 2.34vw;
+}
+
+.nome {
+    font-size: 2.34vw;
+    padding-left: 1.30vw;
+}
+
+#reproducao1, #reproducao2, #reproducao3, #reproducao4, #reproducao5 {
+    font-family: 'Handjet' !important;
+    font-size: 2.34vw;
+}
+
+.tempo {
+    font-size: 2.34vw;
+}
+
+#reproducao1 {
+    padding-left: 33.00vw;
+    padding-right: 19.85vw;
+}
+
+#reproducao2 {
+    padding-left: 37.36vw;
+    padding-right: 19.85vw;
+}
+
+#reproducao3 {
+    padding-left: 29.42vw;
+    padding-right: 19.92vw;
+}
+
+#reproducao4 {
+    padding-right: 19.92vw;
+    padding-left: 33.65vw;
+}
+
+#reproducao5 {
+    padding-left: 42.57vw;
+    padding-right: 19.92vw;
+}
+
+.msc:hover {
+    background-color: #454545;
+    cursor: pointer;
+}
+
+#lpop {
+    font-family: 'Handjet' !important;
+    color: white;
+    font-size: 2.34vw;
+    margin-top: 1.62vw;
+    margin-left: 1.30vw;
+    margin-bottom: 2.27vw;
+}
+
+#lpop strong {
+    font-family: 'Handjet' !important;
+}
+
+.alop {
+    display: flex;
+    margin-bottom: 1.30vw;
+}
+
+.alop img {
+    width: 11.02vw;
+    height: 10.80vw;
+}
+
+.pop {
+    margin: 0 2.27vw;
+}
+
+.name {
+    color: white;
+    font-family: 'Handjet' !important;
+    width: 9.37vw;
+    font-size: 1.30vw;
+    padding-left: 0.65vw;
+}
+
+.pop:hover {
+    box-shadow: 0px 0px 3.25vw 0.78vw #3D3C3A;
+    cursor: pointer;
+    background-color: #191919;
+}
+
+.sla {
+    color: #ffffff4b;
+    font-family: 'Handjet' !important;
+    margin-left: 1.30vw;
+    font-size: 1.04vw;
+}
+
+#album  {
+    font-family: 'Handjet' !important;
+    color: white;
+    font-size: 2.34vw;
+    margin-top: 2.27vw;
+    margin-left: 1.30vw;
+    margin-bottom: 2.27vw;
+}
+
+#album strong {
+    font-family: 'Handjet' !important;
+}
+
+@media (max-width: 990px){
+    label{
+        visibility: visible;
+        z-index: 11;
+    }
+
+    #menu{
+        left: -24.62vw;
+        width: 24.62vw;
+        background-color: #232323f4;
+    }
+
+    #check:checked ~ #menu{
+        transform: translateX(24.62vw);
+    }
+    
+    #check:checked ~ label{
+        transform: translateX(23.62vw);
+    }
+
+    main{
+        left: 0;
+        width: 100%;
+    }
+
+    .baners img{
+        Width: 16.6vw;
+        Height: 20.9vw;
+    }
+
+    #parte-de-cima a{
+        font-size: 2vw;
+    }
+
+    .mostrar{
+        font-size: 1.6vw;
+    }
+
+    .palavra{
+        font-size: 2.31vw ;
+    }
+
+    #titulo{
+        font-size: 7.77vw;
+    }
+
+    #musics a {
+        font-size: 1.40vw;
+    }
+
+    #ibb p {
+        font-size: 1.56vw;
+    }
+
+    #ibb img{
+        width: 2.39vw;
+        height: 2.31vw;
+    }
+
+    #cm p{
+        font-size: 1.56vw;
+    }
+
+    #cm img{
+        width: 3vw;
+        height: 3.45vw;
+    }
+
+    #cm #segundaimg{
+        width: 3vw;
+        height: 3.20vw;
+    }
+
+    #dowload img{
+        width: 3.19vw;
+        height: 2.89vw;
+    }
+    
+    #dowload p{
+        font-size: 1.56vw;
+    }
+
+    #menu #logo img{
+        width: 11.04vw;
+        height: 7.85vw;
+    }
+
+    #portugues p{
+        font-size: 1.56vw;
+    }
+    
+    #portugues {
+        padding: 1vw 1.5vw 1vw 1.5vw;
+    }
+
+    #portugues img{
+        width: 3.27vw;
+        height: 3.27vw;
+    }
+}
